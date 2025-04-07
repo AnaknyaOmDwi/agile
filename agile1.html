@@ -4,71 +4,164 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Halaman Pengenalan Diri</title>
+    <title>Profil Saya | Zein</title>
+    
 </head>
 <body>
-    <div class="container">
-        <header>
-            <!-- Ganti dengan foto profil Anda -->
-            <img src="https://via.placeholder.com/150" alt="Foto Profil" class="profile-img">
-            <h1>Nama Lengkap Anda</h1>
-            <p class="title">Profesi/Jabatan Anda</p>
-        </header>
-        
-        <div class="section">
-            <h2>Data Diri</h2>
-            <div class="data-item">
-                <span class="data-label">Nama Lengkap:</span>
-                <span>Nama Lengkap Anda</span>
+    <!-- Header & Navigation -->
+    <header>
+        <nav>
+            <a href="#" class="logo">Zein Ath Thoriq Badres</a>
+            <div class="nav-links">
+                <a href="#home">Beranda</a>
+                <a href="#about">Tentang</a>
+                <a href="#contact">Kontak</a>
             </div>
-            <div class="data-item">
-                <span class="data-label">Tanggal Lahir:</span>
-                <span>DD/MM/YYYY</span>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
             </div>
-            <div class="data-item">
-                <span class="data-label">Alamat:</span>
-                <span>Kota, Negara</span>
-            </div>
-            <div class="data-item">
-                <span class="data-label">Email:</span>
-                <span>email@contoh.com</span>
-            </div>
-            <div class="data-item">
-                <span class="data-label">Telepon:</span>
-                <span>+62 812-3456-7890</span>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <img src="/image/tes.jpg" alt="Foto Profil" class="profile-img">
+            <p>Mahasiswa | Mobile Dev(Aaamiin)</p>
+            <div class="hero-buttons">
+                <a href="#contact" class="cta-button">Hubungi Saya</a>
+                <a href="#about" class="cta-button outline">Pelajari Lebih</a>
             </div>
         </div>
-        
-        <div class="section">
+    </section>
+
+    <!-- About Section -->
+    <section class="section" id="about">
+        <div class="section-title">
             <h2>Tentang Saya</h2>
-            <p>Halo! Perkenalkan nama saya [Nama Anda]. Saya seorang [profesi/jabatan] dengan pengalaman di bidang [bidang keahlian]. Saya memiliki passion di [minat/keahlian khusus] dan selalu bersemangat untuk belajar hal-hal baru.</p>
-            <p>Selama [jumlah tahun] tahun terakhir, saya telah bekerja di [perusahaan/organisasi] sebagai [posisi], di mana saya bertanggung jawab untuk [deskripsi singkat tanggung jawab]. Saya menikmati [aktivitas terkait pekerjaan] dan percaya bahwa [filosofi/keyakinan profesional].</p>
-            <p>Di waktu luang, saya suka [hobi/minat pribadi]. Saya juga aktif di [organisasi/komunitas] sebagai [peran].</p>
+            <p>Berikut adalah sedikit informasi tentang diri saya dan keahlian yang saya miliki</p>
         </div>
-        
-        <div class="section">
-            <h2>Keterampilan</h2>
-            <ul>
-                <li>Keterampilan 1</li>
-                <li>Keterampilan 2</li>
-                <li>Keterampilan 3</li>
-                <li>Keterampilan 4</li>
-            </ul>
-        </div>
-        
-        <footer>
-            <div class="social-icons">
-                <!-- Ganti dengan link media sosial Anda -->
-                <a href="#"><i class="fab fa-linkedin"></i></a>
-                <a href="#"><i class="fab fa-github"></i></a>
-                <a href="#"><i class="fab fa-twitter"></i></a>
-                <a href="#"><i class="fab fa-instagram"></i></a>
+        <div class="about-content">
+            <div class="about-text">
+                <h3>Siapa Saya?</h3>
+                <p>Saya adalah seorang Mahasiswa yang fokus di bidang Mobile Development. Saya memiliki passion dalam Mobile Development dan selalu bersemangat untuk menciptakan solusi inovatif.</p>
+                <p>Pendidikan saya di Universitas Mikroskil telah membekali saya dengan pengetahuan mendalam di basic Pemrograman</p>
+                <p>Di luar pekerjaan, saya menikmati bermain game dan badminton. Saya juga aktif di Mikroskil Investment Club.</p>
+                
+                <h3 style="margin-top: 2rem;">Keahlian Saya</h3>
+                <div class="skills">
+                    <span class="skill">HTML/CSS</span>
+                    <span class="skill">JavaScript</span>
+                    <span class="skill">Dart</span>
+                    <span class="skill">Flutter</span>
+                </div>
             </div>
-            <p>&copy; 2023 Nama Anda. All rights reserved.</p>
-        </footer>
-    </div>
-    
-    <!-- Untuk ikon font awesome (opsional) -->
-    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section contact" id="contact">
+        <div class="section-title">
+            <h2>Hubungi Saya</h2>
+            <p>Silakan hubungi saya melalui form berikut atau langsung melalui kontak yang tersedia</p>
+        </div>
+        <div class="contact-content">
+            <div class="contact-info">
+                <h3>Informasi Kontak</h3>
+                <div class="contact-details">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div>
+                            <h4>Lokasi</h4>
+                            <p>Kota, Negara</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div>
+                            <h4>Email</h4>
+                            <p>email@contoh.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div>
+                            <h4>Telepon</h4>
+                            <p>+62 812-3456-7890</p>
+                        </div>
+                    </div>
+                </div>
+                <h3>Media Sosial</h3>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fab fa-github"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="contact-form">
+                <form>
+                    <div class="form-group">
+                        <label for="name">Nama Lengkap</label>
+                        <input type="text" id="name" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subjek</label>
+                        <input type="text" id="subject" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Pesan</label>
+                        <textarea id="message" class="form-control" required></textarea>
+                    </div>
+                    <button type="submit" class="cta-button" style="width: 100%;">Kirim Pesan</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-links">
+            <a href="#home">Beranda</a>
+            <a href="#about">Tentang</a>
+            <a href="#experience">Pengalaman</a>
+            <a href="#contact">Kontak</a>
+        </div>
+        <p class="copyright">© 2023 Nama Anda. All rights reserved.</p>
+    </footer>
+
+    <script>
+        // Simple JavaScript for mobile menu toggle
+        document.querySelector('.menu-toggle').addEventListener('click', function() {
+            const navLinks = document.querySelector('.nav-links');
+            navLinks.style.display = navLinks.style.display === 'flex' ? 'none' : 'flex';
+        });
+        
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+                
+                // Close mobile menu if open
+                if (window.innerWidth <= 768) {
+                    document.querySelector('.nav-links').style.display = 'none';
+                }
+            });
+        });
+    </script>
 </body>
 </html>
