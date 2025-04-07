@@ -139,29 +139,5 @@
         </div>
         <p class="copyright">© 2023 Nama Anda. All rights reserved.</p>
     </footer>
-
-    <script>
-        // Simple JavaScript for mobile menu toggle
-        document.querySelector('.menu-toggle').addEventListener('click', function() {
-            const navLinks = document.querySelector('.nav-links');
-            navLinks.style.display = navLinks.style.display === 'flex' ? 'none' : 'flex';
-        });
-        
-        // Smooth scrolling for anchor links
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function (e) {
-                e.preventDefault();
-                
-                document.querySelector(this.getAttribute('href')).scrollIntoView({
-                    behavior: 'smooth'
-                });
-                
-                // Close mobile menu if open
-                if (window.innerWidth <= 768) {
-                    document.querySelector('.nav-links').style.display = 'none';
-                }
-            });
-        });
-    </script>
 </body>
 </html>
