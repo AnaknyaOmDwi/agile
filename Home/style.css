@@ -1,0 +1,62 @@
+html, * {
+    margin: 0;
+    padding: 0;
+}
+.navbar { 
+    height: 80px;
+    background-color: lightblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+}
+
+.menu>a{
+    text-decoration: none;
+    padding: 0 20px;
+    color: black;
+}
+
+.menu>a:hover{
+    color: rgb(31, 63, 73);
+}
+
+.column{
+    padding: 20px;
+}
+
+.card {
+    display: flex;
+    justify-content: space-between;
+    background-color: lightblue;
+    padding: 20px;
+    margin: 30px;
+    border-radius: 20px;
+}
+
+.kiri{
+    display: flex;
+}
+
+.desc{
+    padding: 20px;
+}
+
+.link>a{
+    align-content: center;
+    text-decoration: none ;
+}
+
+.link{
+    align-content: center;
+}
+
+.card>.kiri>img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid white;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1.5rem;
+    }
